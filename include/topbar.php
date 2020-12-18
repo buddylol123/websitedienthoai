@@ -83,8 +83,37 @@
 	</div>
 	
 	<!-- Đăng nhặp -->
-	
-				
+	<div class="modal fade" id="dangnhap" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title text-center">Đăng nhập </h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form action="#" method="post">
+						<div class="form-group">
+							<label class="col-form-label">Email</label>
+							<input type="email" class="form-control" placeholder=" " name="email_dn" required="">
+						</div>
+						<div class="form-group">
+							<label class="col-form-label">Mật khẩu</label>
+							<input type="password" class="form-control" placeholder=" " name="matkhau_dn" required="">
+						</div>
+						<div class="right-w3l">
+							<input type="submit" class="form-control" name="dangnhap" value="Đăng nhập">
+						</div>
+						<p class="text-center dont-do mt-3">Bạn chưa có tài khoản?
+							<a href="#" data-toggle="modal" data-target="#dangky">
+								Đăng ký ngay</a>
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 	<!-- Đăng ký -->
